@@ -3,19 +3,19 @@
 Kept current by the COS seat. Replace sections, don't append forever.
 
 ## Current state
-Escalation rule approved and written into shared.md (2026-10-02). Rollup #1 done. The
-Immediate questions channel is session `session_01DKuFyP3En9HSv19YfVLmVT`, "Heckle · Immediate
-questions" (created by COS 2026-10-02). First item sent: the site isn't live (Pages not enabled),
-plus the two sample-data leaks to fix before the flip.
+Escalation rule live (shared.md). Immediate questions channel: "Heckle · Immediate questions",
+`session_01DKuFyP3En9HSv19YfVLmVT`. Rollup #2 (2026-10-05): nothing moved since 10-01; the site is
+still not live (Pages off). Rollup #1 wrongly said the sample badges and 41M views were live (PR #8
+had removed them); corrected in the channel and in shared.md.
+**Own rule: `git pull origin main` and check Actions runs before any claim about site state.**
 
 ## Open items
-- Next rollup: Monday 2026-10-05, US Central. Check whether Pages is on and the fix PRs merged, and re-read Beehiiv subscribers.
-- Count the operator's open questions per seat each rollup (about 23 on 2026-10-02).
-- The 41M-views fix has no owner until the operator asks CCO (on the operator's ship list).
+- Rollup #3: Monday 2026-10-12. Check Pages and deploys, Beehiiv subscribers, CTO inbox ticks, and any reply in the Immediate questions channel.
+- Operator question count per seat (about 21 on 2026-10-05).
+- If Pages is still off on 10-12, re-raise it at the top of the rollup chat answer.
 
 ## Waiting on
-- Operator: weekly build hours and days (Q5), and OK to propose calendar blocks.
-- Operator: enable Pages; decide go-live now vs after the sample-label fixes.
+- Operator: Pages toggle; network domains; 5 mic cities; build hours (asked 10-02).
 
 ## Last run
-2026-10-02 · [2026-10-02-escalation-rule-and-rollup.md](../reports/cos/2026-10-02-escalation-rule-and-rollup.md)
+2026-10-05 · [weekly-rollup](../reports/cos/2026-10-05-weekly-rollup.md)

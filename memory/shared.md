@@ -5,23 +5,24 @@ blocker's status. Only the operator makes decisions; seats record them.
 
 ## North star
 Setlist subscribers, and week-2 return rate on games.
-- Setlist subscribers: **1 active** (Beehiiv publication stats, all time, read 2026-10-02; likely
+- Setlist subscribers: **1 active** (Beehiiv publication stats, all time, read 2026-10-05; likely
   a test sign-up, since the site isn't live).
 - Week-2 return rate: **not measurable yet**. Needs the site live, GA4 returning-user data, and 14 days.
 
-## Blockers, ranked (COS re-rank 2026-10-02, see reports/cos/2026-10-02-escalation-rule-and-rollup.md)
+## Blockers, ranked (COS re-rank 2026-10-02; status as of reports/cos/2026-10-05-weekly-rollup.md)
 1. **Go live and measure:** GA4 (`G-8EP75MZ62L`) and the Beehiiv form are configured, but
    GitHub Pages is not enabled, so deploys fail (404) and nothing records. Owner: operator
-   (setting) + CTO (verify after launch). Status: sent to Immediate questions 2026-10-02.
-2. **Open mic feed:** listings are sample data until the scraping pipeline runs. Sample cards
-   show fake "Confirmed Nd ago" badges; they must be labelled before go-live. Owner: CTO + CPO.
+   (setting) + CTO (verify after launch). Status: still off; 3 of 3 deploys failed (last run
+   2026-10-01). Re-sent to Immediate questions 2026-10-05.
+2. **Open mic feed:** since PR #8 (2026-10-01) the page shows no generated mics, only sourced
+   entries, and there are none yet. Cut to 5 cities (which ones: undecided). Owner: CTO + CPO.
    Status: source decided 2026-10-01; not built.
 3. **Backend:** mic reports, joke submissions, votes and leaderboards live in one visitor's
    browser. Also needed for mic-submission notifications. Owner: CTO. Status: surfaces mapped;
    waiting on operator answers.
 4. **Festival fees and pay terms:** 0 of 8 verified (CPO, 2026-10-01). The page correctly shows
-   "not published". Owner: CPO. Status: waiting on operator answers.
-5. **Specials scores:** scores, views and rank movement are sample data. Owner: CCO + CTO.
+   "not published". Owner: CPO. Status: blocked on the environment's network access (operator setting).
+5. **Specials scores:** every special shows "Not rated" since PR #8. Owner: CCO + CTO.
    Status: rubric v1 done (reports/cco/2026-10-01-scoring-rubric.md); needs the CTO ledger.
 
 ## Site status

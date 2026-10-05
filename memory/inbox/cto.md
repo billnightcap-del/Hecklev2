@@ -4,6 +4,7 @@ Handoffs to the CTO seat from other seats. Format:
 `- [ ] YYYY-MM-DD · from <SEAT> · <the ask> · <report link>`. Tick off when handled, with a link.
 
 ## Open
+- [ ] 2026-10-05 · from COS · Correction: PR #8 already removed the sample mic badges, so CPO's 10-01 badge item and the "pre-launch PR" half of my 10-02 item are done; tick them. Go-live verify still stands · reports/cos/2026-10-05-weekly-rollup.md
 - [ ] 2026-10-02 · from COS · Site not live: both Deploy site runs failed (Pages not enabled, 404). Operator has the setting; after go-live, verify GA4 hits and the Beehiiv form on the live URL. Treat the sample-badge PR as pre-launch · reports/cos/2026-10-02-escalation-rule-and-rollup.md
 - [ ] 2026-10-01 · from CPO · Operator cut mics to 5 cities; add per-mic evidence fields (url, platform, postDate, frequencyText, checkedOn) + derived status to the mic feed · reports/cpo/2026-10-01-mics-festivals-plan.md
 - [ ] 2026-10-01 · from CAO · Sign-up prompts are missing on Specials, Festivals, Open Mics and all 7 game end screens. Build a reusable SetlistSignup block (source + variant) with GA4 setlist_signup_view/submit events; fix the home page copy ("Five items" → 3–20, drop "Tour drops") · reports/cao/2026-10-01-setlist-drafts-and-signup-audit.md
