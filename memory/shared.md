@@ -26,8 +26,12 @@ Setlist subscribers, and week-2 return rate on games.
    Status: rubric v1 done (reports/cco/2026-10-01-scoring-rubric.md); needs the CTO ledger.
 
 ## Site status
-**Not live.** Deploy workflow runs on push to `main`, but both runs (2026-10-01) failed: Pages
-isn't enabled in repo settings. Intended address: https://billnightcap-del.github.io/Heckle-Webiste/
+**Repo moved 2026-10-08.** The old repo `billnightcap-del/Heckle-Webiste` returns "not found".
+The code and full history (through `80a18e7`) were pushed to **`billnightcap-del/Hecklev2`** on
+2026-10-08 by COS at the operator's request. Every seat session must push to Hecklev2 from now on:
+`git remote set-url origin https://github.com/billnightcap-del/Hecklev2`.
+Pages is on (source: GitHub Actions, operator 2026-10-08). Address: https://billnightcap-del.github.io/Hecklev2/
+(`deploy.yml` and `README.md` still show the old URL in comments; cosmetic, CTO to fix in a PR.)
 **This repo is public.** Everything here, including reports and memory, is readable by anyone. Write accordingly: no private contact details, credentials, or anything said in confidence.
 
 ## Escalation rule (operator approved 2026-10-02)
@@ -59,3 +63,4 @@ answer. Not via inboxes.
 | 2026-10-01 | Set / Bomb of the Week use whatever viewer data is publicly available (retention is private to channel owners). | Waiting for retention data. |
 | 2026-10-02 | Escalation rule: interrupts go to a separate "Heckle · Immediate questions" session, no quiet hours; any spend and the listed legal cases interrupt. | Interrupts in seat chats only; quiet hours; a spend threshold. |
 | 2026-10-02 | Blockers re-ranked: go live and measure, mic feed, backend, festival fees, specials scores. | The 2026-10-01 order (backend first). |
+| 2026-10-08 | Site repo is `billnightcap-del/Hecklev2`; Pages publishes from GitHub Actions. | `Heckle-Webiste` (gone). |
