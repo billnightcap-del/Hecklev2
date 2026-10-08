@@ -32,6 +32,7 @@ The code and full history (through `80a18e7`) were pushed to **`billnightcap-del
 `git remote set-url origin https://github.com/billnightcap-del/Hecklev2`.
 **Live since 2026-10-08** (Deploy site run 37749336819, success; Pages source GitHub Actions). Address: https://billnightcap-del.github.io/Hecklev2/
 (`deploy.yml` and `README.md` still show the old URL in comments; cosmetic, CTO to fix in a PR.)
+**Custom domain:** `hecklemag.com` (bought at Squarespace 2026-10-08). DNS → GitHub Pages pending; not confirmed live yet.
 **This repo is public.** Everything here, including reports and memory, is readable by anyone. Write accordingly: no private contact details, credentials, or anything said in confidence.
 
 ## Escalation rule (operator approved 2026-10-02)
@@ -64,3 +65,4 @@ answer. Not via inboxes.
 | 2026-10-02 | Escalation rule: interrupts go to a separate "Heckle · Immediate questions" session, no quiet hours; any spend and the listed legal cases interrupt. | Interrupts in seat chats only; quiet hours; a spend threshold. |
 | 2026-10-02 | Blockers re-ranked: go live and measure, mic feed, backend, festival fees, specials scores. | The 2026-10-01 order (backend first). |
 | 2026-10-08 | Site repo is `billnightcap-del/Hecklev2`; Pages publishes from GitHub Actions. | `Heckle-Webiste` (gone). |
+| 2026-10-08 | Custom domain hecklemag.com, registered at Squarespace (domain only, no Squarespace site plan). | Staying on the github.io address. |
