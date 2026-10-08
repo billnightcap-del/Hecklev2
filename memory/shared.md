@@ -12,8 +12,8 @@ Setlist subscribers, and week-2 return rate on games.
 ## Blockers, ranked (COS re-rank 2026-10-02; status as of reports/cos/2026-10-05-weekly-rollup.md)
 1. **Go live and measure:** GA4 (`G-8EP75MZ62L`) and the Beehiiv form are configured, but
    GitHub Pages is not enabled, so deploys fail (404) and nothing records. Owner: operator
-   (setting) + CTO (verify after launch). Status: still off; 3 of 3 deploys failed (last run
-   2026-10-01). Re-sent to Immediate questions 2026-10-05.
+   (setting) + CTO (verify after launch). Status: site deployed 2026-10-08 on Hecklev2. Left:
+   confirm GA4 records a visit and the Beehiiv form works on the live URL.
 2. **Open mic feed:** since PR #8 (2026-10-01) the page shows no generated mics, only sourced
    entries, and there are none yet. Cut to 5 cities (which ones: undecided). Owner: CTO + CPO.
    Status: source decided 2026-10-01; not built.
@@ -30,7 +30,7 @@ Setlist subscribers, and week-2 return rate on games.
 The code and full history (through `80a18e7`) were pushed to **`billnightcap-del/Hecklev2`** on
 2026-10-08 by COS at the operator's request. Every seat session must push to Hecklev2 from now on:
 `git remote set-url origin https://github.com/billnightcap-del/Hecklev2`.
-Pages is on (source: GitHub Actions, operator 2026-10-08). Address: https://billnightcap-del.github.io/Hecklev2/
+**Live since 2026-10-08** (Deploy site run 37749336819, success; Pages source GitHub Actions). Address: https://billnightcap-del.github.io/Hecklev2/
 (`deploy.yml` and `README.md` still show the old URL in comments; cosmetic, CTO to fix in a PR.)
 **This repo is public.** Everything here, including reports and memory, is readable by anyone. Write accordingly: no private contact details, credentials, or anything said in confidence.
 
