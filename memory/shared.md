@@ -33,6 +33,7 @@ The code and full history (through `80a18e7`) were pushed to **`billnightcap-del
 **Live since 2026-10-08** (Deploy site run 37749336819, success; Pages source GitHub Actions). Address: https://billnightcap-del.github.io/Hecklev2/
 (`deploy.yml` and `README.md` still show the old URL in comments; cosmetic, CTO to fix in a PR.)
 **Custom domain: https://hecklemag.com, live 2026-10-08** (operator saw the site load). Squarespace DNS: 4 A records to 185.199.108-111.153 and www CNAME to billnightcap-del.github.io (screenshot checked by COS). GitHub's DNS check was still red and HTTPS was not enforced yet; the operator ticks Enforce HTTPS when it goes green. Squarespace "Email Security" preset (SPF -all, DMARC reject) means no mail can be sent as @hecklemag.com until it's changed.
+**Second Heckle app found 2026-10-08:** https://heckle.heckle.workers.dev (Cloudflare Worker "heckle", operator's account). An Astro app with a D1 database, staff login, an AI newsroom (uses an Anthropic API key, which is paid usage), YouTube and mic bots, a Beehiiv API, and pages for open mics, festivals, specials, news, opinion and topics. The operator's real images and videos live there, not in this repo. Its source code is in no GitHub repo the account can reach. Which app is "the" Heckle: operator decision pending.
 **This repo is public.** Everything here, including reports and memory, is readable by anyone. Write accordingly: no private contact details, credentials, or anything said in confidence.
 
 ## Escalation rule (operator approved 2026-10-02)
