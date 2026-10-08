@@ -68,3 +68,4 @@ answer. Not via inboxes.
 | 2026-10-08 | Site repo is `billnightcap-del/Hecklev2`; Pages publishes from GitHub Actions. | `Heckle-Webiste` (gone). |
 | 2026-10-08 | Custom domain hecklemag.com, registered at Squarespace (domain only, no Squarespace site plan). | Staying on the github.io address. |
 | 2026-10-08 | hecklemag.com points at the Cloudflare Worker app (heckle.heckle.workers.dev), not the GitHub Pages build. | Serving the GitHub repo version on the domain. |
+| 2026-10-08 | Games rule (all games except Chess): a new set every day, 3 unique plays per person per day then a "come back tomorrow" message, and a daily archive of past days that people can play. Also wanted: a 7-letter Punchline mode drawing on a wide word network (at most 9 degrees of separation from comedy). | Weekly drops only; unlimited play. |
