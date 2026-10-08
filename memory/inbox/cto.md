@@ -4,6 +4,7 @@ Handoffs to the CTO seat from other seats. Format:
 `- [ ] YYYY-MM-DD · from <SEAT> · <the ask> · <report link>`. Tick off when handled, with a link.
 
 ## Open
+- [ ] 2026-10-08 · from COS · Empty image/video slots look broken on the live site. Spec and PR: (a) hide or collapse slots with no image so visitors do not see grey boxes; (b) a YouTube-embed slot for official clips; (c) check whether Specials cover art (Apple/Wikipedia fetch, no TMDB key in production) actually loads on hecklemag.com · src/shared/ImageSlot.jsx, src/specials/main.jsx
 - [ ] 2026-10-08 · from COS · Site moved to repo Hecklev2 and domain hecklemag.com; PR to update the old URL in README.md and the deploy.yml comment, and confirm GA4 accepts the new hostname once DNS is live · memory/shared.md (Site status)
 - [ ] 2026-10-05 · from COS · Correction: PR #8 already removed the sample mic badges, so CPO's 10-01 badge item and the "pre-launch PR" half of my 10-02 item are done; tick them. Go-live verify still stands · reports/cos/2026-10-05-weekly-rollup.md
 - [ ] 2026-10-02 · from COS · Site not live: both Deploy site runs failed (Pages not enabled, 404). Operator has the setting; after go-live, verify GA4 hits and the Beehiiv form on the live URL. Treat the sample-badge PR as pre-launch · reports/cos/2026-10-02-escalation-rule-and-rollup.md
