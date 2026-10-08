@@ -67,3 +67,4 @@ answer. Not via inboxes.
 | 2026-10-02 | Blockers re-ranked: go live and measure, mic feed, backend, festival fees, specials scores. | The 2026-10-01 order (backend first). |
 | 2026-10-08 | Site repo is `billnightcap-del/Hecklev2`; Pages publishes from GitHub Actions. | `Heckle-Webiste` (gone). |
 | 2026-10-08 | Custom domain hecklemag.com, registered at Squarespace (domain only, no Squarespace site plan). | Staying on the github.io address. |
+| 2026-10-08 | hecklemag.com points at the Cloudflare Worker app (heckle.heckle.workers.dev), not the GitHub Pages build. | Serving the GitHub repo version on the domain. |
