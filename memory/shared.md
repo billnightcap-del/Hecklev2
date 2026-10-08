@@ -32,7 +32,7 @@ The code and full history (through `80a18e7`) were pushed to **`billnightcap-del
 `git remote set-url origin https://github.com/billnightcap-del/Hecklev2`.
 **Live since 2026-10-08** (Deploy site run 37749336819, success; Pages source GitHub Actions). Address: https://billnightcap-del.github.io/Hecklev2/
 (`deploy.yml` and `README.md` still show the old URL in comments; cosmetic, CTO to fix in a PR.)
-**Custom domain:** `hecklemag.com` (bought at Squarespace 2026-10-08). DNS → GitHub Pages pending; not confirmed live yet.
+**Custom domain: https://hecklemag.com, live 2026-10-08** (operator saw the site load). Squarespace DNS: 4 A records to 185.199.108-111.153 and www CNAME to billnightcap-del.github.io (screenshot checked by COS). GitHub's DNS check was still red and HTTPS was not enforced yet; the operator ticks Enforce HTTPS when it goes green. Squarespace "Email Security" preset (SPF -all, DMARC reject) means no mail can be sent as @hecklemag.com until it's changed.
 **This repo is public.** Everything here, including reports and memory, is readable by anyone. Write accordingly: no private contact details, credentials, or anything said in confidence.
 
 ## Escalation rule (operator approved 2026-10-02)
