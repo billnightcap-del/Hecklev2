@@ -59,3 +59,4 @@ answer. Not via inboxes.
 | 2026-10-08 | Custom domain hecklemag.com, registered at Squarespace (domain only, no Squarespace site plan). | Staying on the github.io address. |
 | 2026-10-08 | hecklemag.com points at the Cloudflare Worker app (heckle.heckle.workers.dev), not the GitHub Pages build. | Serving the GitHub repo version on the domain. |
 | 2026-10-08 | Games rule (all games except Chess): a new set every day, 3 unique plays per person per day then a "come back tomorrow" message, and a daily archive of past days that people can play. Also wanted: a 7-letter Punchline mode drawing on a wide word network (at most 9 degrees of separation from comedy). | Weekly drops only; unlimited play. |
+| 2026-10-12 | Specials page: the lists sit below the specials database; every special added to a list is also added to the database; once the page has more than 30 specials, paginate at 25 per page. | Lists above the database; one long page. |
