@@ -3,19 +3,15 @@
 Kept current by the COS seat. Replace sections, don't append forever.
 
 ## Current state
-Escalation rule live (shared.md). Immediate questions channel: "Heckle · Immediate questions",
-`session_01DKuFyP3En9HSv19YfVLmVT`. Rollup #2 (2026-10-05): nothing moved since 10-01; the site is
-still not live (Pages off). Rollup #1 wrongly said the sample badges and 41M views were live (PR #8
-had removed them); corrected in the channel and in shared.md.
-**Own rule: `git pull origin main` and check Actions runs before any claim about site state.**
+hecklemag.com = the Cloudflare Worker "heckle" (COS reads its D1 database read-only via the Cloudflare MCP). The GitHub repo `billnightcap-del/Hecklev2` holds only the older static build plus seats' memory/reports. The live app's source isn't in any repo. Immediate questions channel: `session_01DKuFyP3En9HSv19YfVLmVT`.
+**Own rules:** `git pull origin main` and check primary sources (Actions runs, D1, screenshots) before any claim about site state. Don't record what the operator reports until it's seen.
 
 ## Open items
-- Rollup #3: Monday 2026-10-12. Check Pages and deploys, Beehiiv subscribers, CTO inbox ticks, and any reply in the Immediate questions channel.
-- Operator question count per seat (about 21 on 2026-10-05).
-- If Pages is still off on 10-12, re-raise it at the top of the rollup chat answer.
+- Rollup #4: Monday 2026-10-19. Check: live code in a repo? games past 10-18? CTO/CCO/CRO unfrozen? Beehiiv subscribers.
+- Games bank ends 2026-10-18 (sent to Immediate questions 10-12).
 
 ## Waiting on
-- Operator: Pages toggle; network domains; 5 mic cities; build hours (asked 10-02).
+- Operator: push the live app's code to GitHub; approve the 3 frozen seat prompts; decide the news desks; weekly build hours (asked 10-02).
 
 ## Last run
-2026-10-05 · [weekly-rollup](../reports/cos/2026-10-05-weekly-rollup.md)
+2026-10-12 · [weekly-rollup](../reports/cos/2026-10-12-weekly-rollup.md)

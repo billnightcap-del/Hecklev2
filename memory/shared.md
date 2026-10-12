@@ -5,25 +5,15 @@ blocker's status. Only the operator makes decisions; seats record them.
 
 ## North star
 Setlist subscribers, and week-2 return rate on games.
-- Setlist subscribers: **1 active** (Beehiiv publication stats, all time, read 2026-10-05; likely
-  a test sign-up, since the site isn't live).
-- Week-2 return rate: **not measurable yet**. Needs the site live, GA4 returning-user data, and 14 days.
+- Setlist subscribers: **1 active** (Beehiiv publication stats, all time, read 2026-10-12; likely the test sign-up).
+- Week-2 return rate: **not measurable.** Whether the live app (Cloudflare Worker) loads GA4 is UNKNOWN; CTO to check.
 
-## Blockers, ranked (COS re-rank 2026-10-02; status as of reports/cos/2026-10-05-weekly-rollup.md)
-1. **Go live and measure:** GA4 (`G-8EP75MZ62L`) and the Beehiiv form are configured, but
-   GitHub Pages is not enabled, so deploys fail (404) and nothing records. Owner: operator
-   (setting) + CTO (verify after launch). Status: site deployed 2026-10-08 on Hecklev2. Left:
-   confirm GA4 records a visit and the Beehiiv form works on the live URL.
-2. **Open mic feed:** since PR #8 (2026-10-01) the page shows no generated mics, only sourced
-   entries, and there are none yet. Cut to 5 cities (which ones: undecided). Owner: CTO + CPO.
-   Status: source decided 2026-10-01; not built.
-3. **Backend:** mic reports, joke submissions, votes and leaderboards live in one visitor's
-   browser. Also needed for mic-submission notifications. Owner: CTO. Status: surfaces mapped;
-   waiting on operator answers.
-4. **Festival fees and pay terms:** 0 of 8 verified (CPO, 2026-10-01). The page correctly shows
-   "not published". Owner: CPO. Status: blocked on the environment's network access (operator setting).
-5. **Specials scores:** every special shows "Not rated" since PR #8. Owner: CCO + CTO.
-   Status: rubric v1 done (reports/cco/2026-10-01-scoring-rubric.md); needs the CTO ledger.
+## Blockers, ranked (COS re-rank 2026-10-12 for the live app, see reports/cos/2026-10-12-weekly-rollup.md)
+1. **Live app's code isn't in GitHub.** The app serving hecklemag.com was built in a Claude session COS can't see. No seat can audit or change it. Owner: operator → CTO.
+2. **Games refill.** The live D1 `game_days` table holds 8 games × days 10-08 → 10-18 × 4 slots, loaded once on 10-08. Nothing refills it, so **the games go empty after 10-18.** Operator rule (10-08): daily set, 3 plays a day, archive. Owner: CPO spec, CTO build.
+3. **Mic data trust.** Live app: 270 mics in 7 cities, each with a source link and a confirm date (09-04 → 10-11). 6 are over 30 days old. 73 link to Instagram/Facebook, gathering method UNKNOWN. Owner: CPO.
+4. **Measurement.** GA4 on the live app is UNKNOWN. Owner: CTO.
+5. **Festival fees and specials scores.** Audited on the GitHub build only; the live app's versions haven't been reviewed. Owner: CPO, CCO.
 
 ## Site status
 **Repo moved 2026-10-08.** The old repo `billnightcap-del/Heckle-Webiste` returns "not found".
