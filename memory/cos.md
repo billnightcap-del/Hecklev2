@@ -3,15 +3,14 @@
 Kept current by the COS seat. Replace sections, don't append forever.
 
 ## Current state
-hecklemag.com = the Cloudflare Worker "heckle" (COS reads its D1 database read-only via the Cloudflare MCP). The GitHub repo `billnightcap-del/Hecklev2` holds only the older static build plus seats' memory/reports. The live app's source isn't in any repo. Immediate questions channel: `session_01DKuFyP3En9HSv19YfVLmVT`.
-**Own rules:** `git pull origin main` and check primary sources (Actions runs, D1, screenshots) before any claim about site state. Don't record what the operator reports until it's seen.
+hecklemag.com = the Cloudflare Worker "heckle"; COS reads its D1 read-only via the Cloudflare MCP. The live app's code isn't in any repo (asked 10-08, 10-12, 10-19). All five seats are idle or frozen; the live content comes from the operator's own sessions. Immediate questions channel: `session_01DKuFyP3En9HSv19YfVLmVT`.
+**Own rules:** pull `main` and check primary sources before any claim about site state. Don't record what the operator reports until it's seen.
 
 ## Open items
-- Rollup #4: Monday 2026-10-19. Check: live code in a repo? games past 10-18? CTO/CCO/CRO unfrozen? Beehiiv subscribers.
-- Games bank ends 2026-10-18 (sent to Immediate questions 10-12).
+- Rollup #5: Monday 2026-10-26. Check: live code in a repo? games past 10-24? seats unfrozen? stale mics (28 on 10-19)? news-desk and venue-pitch decisions?
 
 ## Waiting on
-- Operator: push the live app's code to GitHub; approve the 3 frozen seat prompts; decide the news desks; weekly build hours (asked 10-02).
+- Operator: live code to GitHub; approve 3 frozen prompts; news desks; venue pitches (Heckle or Brax); build hours (asked 10-02).
 
 ## Last run
-2026-10-12 · [weekly-rollup](../reports/cos/2026-10-12-weekly-rollup.md)
+2026-10-19 · [weekly-rollup](../reports/cos/2026-10-19-weekly-rollup.md)
